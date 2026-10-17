@@ -12,7 +12,7 @@ I work on **computational aerodynamics, high-speed compressible flow, and aeroth
 | Project | What it does | Focus |
 |---|---|---|
 | [**1D Euler Shock Tube Solver**](https://github.com/badrelsayedNYU/shock-tube-solver) | Finite-volume compressible flow solver comparing Rusanov, Roe, and HLLC fluxes with MUSCL limiters against the exact Riemann solution, including Roe's failure modes. 57 automated tests. | High-speed CFD |
-| [**Vortex Panel Method Airfoil Solver**](https://github.com/badrelsayedNYU/vortex-panel-solver) | Linear-strength vortex panel solver for 2D airfoils with Kármán–Tsien critical-Mach analysis and an interactive airfoil analysis app, validated against an exact Kármán–Trefftz solution and thin-airfoil theory. | Computational aerodynamics |
+| [**Vortex Panel Method Airfoil Solver**](https://github.com/badrelsayedNYU/vortex-panel-solver) | Linear-strength vortex panel solver for 2D airfoils with Kármán–Tsien critical-Mach analysis and an interactive airfoil analysis app, validated against an exact Kármán–Trefftz solution, thin-airfoil theory, and XFOIL. | Computational aerodynamics |
 | [**Reentry Heating & TPS Thermal Model**](https://github.com/badrelsayedNYU/reentry-tps) | Couples an entry trajectory, Sutton–Graves stagnation-point heating, and an implicit multi-layer conduction model to size a capsule heat shield. | Aerothermodynamics |
 
 ## Research
