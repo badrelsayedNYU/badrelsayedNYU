@@ -13,9 +13,11 @@ I work on **computational aerodynamics, high-speed compressible flow, and aeroth
 |---|---|---|
 | [**1D Euler Shock Tube Solver**](https://github.com/badrelsayedNYU/shock-tube-solver) | Finite-volume compressible flow solver comparing Rusanov, Roe, and HLLC fluxes with MUSCL limiters against the exact Riemann solution, including Roe's failure modes. 57 automated tests. | High-speed CFD |
 | [**Vortex Panel Method Airfoil Solver**](https://github.com/badrelsayedNYU/vortex-panel-solver) | Linear-strength vortex panel solver for 2D airfoils with Kármán–Tsien critical-Mach analysis and an interactive airfoil analysis app, validated against an exact Kármán–Trefftz solution, thin-airfoil theory, and XFOIL. | Computational aerodynamics |
-| [**Reentry Heating & TPS Thermal Model**](https://github.com/badrelsayedNYU/reentry-tps) | Couples an entry trajectory, Sutton–Graves stagnation-point heating, and an implicit multi-layer conduction model to size a capsule heat shield. | Aerothermodynamics |
+| [**Reentry Heating & TPS Thermal Model**](https://github.com/badrelsayedNYU/reentry-tps) | Sizes a capsule heat shield from an entry trajectory, Sutton–Graves heating, and multi-layer conduction. A 7.0 cm LI-900 tile meets the bondline limit and exceeds the tile’s own surface limit; FRCI-12 is the lightest tile that does not. | Aerothermodynamics |
 
 ## Research
+
+Ongoing group work. The public code is the three solvers above.
 
 - **Undergraduate Researcher, High-Speed CFD** (NYU Tandon, Prof. Nicholas DiZinno, Sept 2026–present): extending a strongly implicit incompressible-flow method to the supersonic blunt-body problem: bow shock, shock standoff, and the mixed subsonic–supersonic region.
 - **Aerodynamics Lead, Smart Rotor Load Control** (NYU Tandon senior design, Aug 2026–present): 3D rotating-frame and dynamic-mesh CFD in ANSYS Fluent, plus OpenFAST BEM modeling for a trailing-edge-flap controller on a scaled NREL 5-MW turbine.
