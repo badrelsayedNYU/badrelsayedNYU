@@ -11,9 +11,9 @@ I work on **computational aerodynamics, high-speed compressible flow, and aeroth
 
 | Project | What it does | Focus |
 |---|---|---|
-| [**1D Euler Shock Tube Solver**](https://github.com/badrelsayedNYU/shock-tube-solver) | Finite-volume compressible flow solver comparing Rusanov, Roe, and HLLC fluxes with MUSCL limiters against the exact Riemann solution, including Roe's failure modes. 57 automated tests. | High-speed CFD |
+| [**Euler Flow Solver: Shock Tubes & Blunt Bodies**](https://github.com/badrelsayedNYU/shock-tube-solver) · [Shock Tube Lab](https://badrelsayednyu.github.io/shock-tube-solver/) | Compares Rusanov, Roe, and HLLC fluxes with MUSCL limiters against the exact 1D Riemann solution. A 2D cylinder extension checks bow-shock standoff against Billig’s correlation and stagnation pressure against the exact pitot value (within 0.2% at Mach 2–6), and demonstrates HLLC’s carbuncle instability at Mach 6. 65 automated tests. | High-speed CFD |
 | [**Vortex Panel Method Airfoil Solver**](https://github.com/badrelsayedNYU/vortex-panel-solver) | Linear-strength vortex panel solver for 2D airfoils with Kármán–Tsien critical-Mach analysis and an interactive airfoil analysis app, validated against an exact Kármán–Trefftz solution, thin-airfoil theory, and XFOIL. | Computational aerodynamics |
-| [**Reentry Heating & TPS Thermal Model**](https://github.com/badrelsayedNYU/reentry-tps) | Sizes a capsule heat shield from an entry trajectory, Sutton–Graves heating, and multi-layer conduction. A 7.0 cm LI-900 tile meets the bondline limit and exceeds the tile’s own surface limit; FRCI-12 is the lightest tile that does not. | Aerothermodynamics |
+| [**Reentry Heating & TPS Thermal Model**](https://github.com/badrelsayedNYU/reentry-tps) · [Heat Shield Sizer](https://badrelsayednyu.github.io/reentry-tps/) | Sizes a capsule heat shield from an entry trajectory, Sutton–Graves heating, and multi-layer conduction. For the baseline entry, 7.03 cm of LI-900 meets the bondline limit but exceeds the tile’s surface limit; FRCI-12 is the lightest of the three tiles studied that stays within both limits. The browser app re-sizes the shield as entry conditions change and compares the three materials. | Aerothermodynamics |
 
 ## Research
 
