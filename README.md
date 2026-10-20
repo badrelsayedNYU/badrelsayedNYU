@@ -1,7 +1,6 @@
 # Badr Elsayed
 
-Mechanical engineering senior (aerospace minor) at **NYU Tandon**, applying to aerospace engineering M.S. programs for Fall 2027.
-I work on **computational aerodynamics, high-speed compressible flow, and aerothermodynamics**: building solvers from first principles and validating them against theory and published data.
+Mechanical engineering senior (aerospace minor) at NYU Tandon, applying to aerospace engineering M.S. programs for Fall 2027. I’m interested in high-speed aerodynamics and propulsion for rockets and spacecraft. I write my own simulations to understand the physics, validating them against theory and published data.
 
 📫 badrelsayed@nyu.edu · [LinkedIn](https://www.linkedin.com/in/badr-elsayed/)
 
